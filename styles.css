@@ -34,3 +34,51 @@ main {
     padding: 0 25px;
     box-shadow: 11px 14px 45px -21px hsl(205, 33%, 90%);
 }
+
+@media (max-width: 768px) and (min-width: 375px) {
+    main {
+        width: 60vw;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+}
+
+main 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+main
+header
+.title-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+main 
+header
+#notifications-counter {
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    font-size: 0.9rem;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-weight: 100;
+    align-self: center;
+}
