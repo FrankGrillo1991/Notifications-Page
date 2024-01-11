@@ -102,3 +102,25 @@ body {
     display: grid;
     grid-template-rows: auto auto;
 }
+
+.notification-time {
+    color: hsl(219, 14%, 63%);
+}
+
+.link {
+    transition: all 0.3s;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.link:active {
+    color: hsl(219, 85%, 26%);
+}
+
+.position-relative {
+    position: relative;
+}
