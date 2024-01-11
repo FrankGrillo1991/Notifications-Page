@@ -90,3 +90,34 @@ header
     cursor: pointer;
     font-size: 1rem;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+section 
+.row {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+section
+.row
+.img-container {
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+section
+.row
+.square-container {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
