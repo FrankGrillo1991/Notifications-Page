@@ -62,11 +62,15 @@ body {
     margin-bottom: 1rem;
 }
 
+.notification-pic {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
 
 .notification-pic-pic {
     width: 6rem;
     position: absolute;
-    right: 0;
+    align-items: right;
     top: 2rem;
 }
 
