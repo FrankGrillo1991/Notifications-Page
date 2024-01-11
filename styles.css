@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+.row
+.is-hoverable:hover,
+header
+.is-hoverable:hover {
+    color: hsl(219, 85%, 26%);
+    filter: brightness(1.5);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 43rem;
+    max-width: 100%;
+    margin: 5rem auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 25px;
+    box-shadow: 11px 14px 45px -21px hsl(205, 33%, 90%);
+}
