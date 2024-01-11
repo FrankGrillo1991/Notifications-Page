@@ -19,24 +19,28 @@
 </head>
 <body>
 <main>
-<section class="section-notification">
 
-<div class="nav">
+<header>
 
- <h3 class="notification-title">Notifications<span class="notification-count">3</span></h3>
-
-<a class="notification-markasread">Mark all as read</a>
+ <div class="title-container">
+  <h1 class="title">Notifications</h1>
+  <span id="notifications-counter">3</span>
 </div>
+  <small id="mark-all" class="is-hoverable">Mark all as read</small>
+</header>
 
-<div class="notification-content">
-  <div class="not not-unread not-1">
-    <img src="notifications-page-main/assets/images/avatar-mark-webber.webp" alt="mark webber image" class="avatar">
-    <div class="notification-text">
- <p><span class="link">Mark Webber</span> reacted to your recent post<span class="link"> My first tournament today!</span><span class="red-dot dot1"></span></p>
-  <span class="notification-time">1m ago</span>
+<section>
+
+<div class="row-to-read">
+    <div class="img-container"></div>
+    <img src="notifications-page-main/assets/images/avatar-mark-webber.webp" alt="profile picture">
+    </div>
+    <div class="notification-container">
+    <h4 class="link">Mark Webber</h4>
+    <span class="notification-text"> reacted to your recent post<a class="post is-hoverable" href="#"></a> My first tournament today!</span>
+    </div>
+  <p class="notification-time">1m ago</p>
   </div>
-</div>
-
 
 <div class="not not-unread not-2">
   <img src="notifications-page-main/assets/images/avatar-angela-gray.webp" alt="angela gray image" class="avatar">
