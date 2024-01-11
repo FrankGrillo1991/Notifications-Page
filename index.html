@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Notifications page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>Frontend Mentor | Notifications page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,18 +19,40 @@
 </head>
 <body>
 
-  Notifications 3
+<section class="section-notification">
 
-  Mark all as read
+<div class="nav">
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+ <h3 class="notification-title">Notifications<span class="notification-count">3</span>
 
-  Angela Gray followed you
-  5m ago
+<a class="notification-markasread">Mark all as read</a>
+</div>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+<div class="notification-content">
+  <div class="not not-unread not-1">
+    <img src="notifications-page-main/assets/images/avatar-mark-webber.webp" alt="mark webber image" class="avatar">
+    <div class="notification-text">
+ <p><span class="link">Mark Webber</span>reacted to your recent post<span class="link">My first tournament today!</span><span class="red-dot dot1"></span></p>
+  <span class="notification-time">1m ago</span>
+  </div>
+</div>
+
+
+<div class="not not-unread not-2">
+  <img src="notifications-page-main/assets/images/avatar-angela-gray.webp" alt="angela gray image" class="avatar">
+  <div class="notification-text">
+  <p><span class="link">Angela Gray</span>followed you<span class="red-dot dot2"></span></p>
+  <p class="notification-time">5m ago</p>
+  </div>
+</div>
+
+<div class="not not-unread not-3">
+  <img src="notifications-page-main/assets/images/avatar-jacob-thompson.webp" alt="jacob thompson image" class="avatar">
+  <div class="notification-text">
+  <p><span class="link">Jacob Thompson</span> has joined your group<span class="link">Chess Club</span><span class="red-dot dot3"></span></p>
+  <p class="notification-time">1 day ago</p>
+  </div>
+</div>
 
   Rizky Hasanuddin sent you a private message
   5 days ago
@@ -42,10 +67,12 @@
 
   Anna Kim left the group Chess Club
   2 weeks ago
-  
+  </div>
+</section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
