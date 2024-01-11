@@ -74,6 +74,10 @@ body {
     top: 2rem;
 }
 
+.notification-image {
+    align-items: right;
+}
+
 .notification-message-message {
     margin: 2rem;
     padding: 2rem;
