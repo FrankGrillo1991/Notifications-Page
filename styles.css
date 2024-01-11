@@ -202,3 +202,16 @@ section
     cursor: pointer;
     transition: border, background-color 300ms;
 }
+
+section
+.row
+.notification-container
+#message-in-container:hover,
+section
+.row
+.notification-container
+#message-in-container:focus {
+    background-color: hsl(211, 68%, 94%);
+    border: 0.5px solid white;
+    transition: border 600ms;
+}
