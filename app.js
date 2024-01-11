@@ -16,7 +16,7 @@ const notifications (() => {
             counter += 1;
         }
         const notificationRead = () => {
-            if (row.classList.contains('to-read')) 
+            if (row.classList.contains('to-read')) {
             console.log(getNotif)
             row.classList.remove.('to-read');
             getNotif.style.setProperty("toggle-display", "none");
