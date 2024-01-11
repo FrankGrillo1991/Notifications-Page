@@ -70,7 +70,7 @@ body {
 .notification-pic-pic {
     width: 6rem;
     position: absolute;
-    align-items: right;
+    right: 0;
     top: 2rem;
 }
 
