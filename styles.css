@@ -124,6 +124,9 @@ body {
     color: hsl(219, 85%, 26%);
 }
 
+.position-relative {
+    position: relative;
+}
 
 .notification-markasread-read {
     color: hsl(219, 14%, 63%);
