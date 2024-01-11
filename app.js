@@ -31,11 +31,11 @@ const notifications (() => {
 const markAllAsRead = () => {
     rows.forEach(el => {
         el.classList.remove('to-read');
-    })
+    });
 }
 getNotif.forEach(el => {
     el.style.setProperty("toggle-display", "none");
-})
+});
 counter = 0;
 notificationsCounter.innerText = counter;
 
