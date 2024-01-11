@@ -57,7 +57,7 @@ body {
 
 .notification {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: auto auto auto;
     padding: 1rem;
     border-radius: 12px;
     margin-bottom: 1rem;
