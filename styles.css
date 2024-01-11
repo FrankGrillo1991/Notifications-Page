@@ -62,10 +62,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.notification-pic {
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
 
 .notification-pic-pic {
     width: 6rem;
