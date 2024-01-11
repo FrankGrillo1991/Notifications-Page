@@ -215,3 +215,16 @@ section
     border: 0.5px solid white;
     transition: border 600ms;
 }
+
+section
+.row
+.notification-container
+#message-in-container
+.message-in {
+    color: hsl(219, 14%, 63%);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.6rem;
+}
