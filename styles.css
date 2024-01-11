@@ -86,3 +86,19 @@ body {
     border: solid 2px hsl(205, 33%, 90%);
     background-color: hsl(205, 33%, 90%);
 }
+
+.red-dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: hsl(1, 90%, 64%);
+    color: hsl(1, 90%, 64%);
+    margin: 0.5rem;
+    display: inline-block;
+    transform: translateY(40%);
+}
+
+.notification-text {
+    display: grid;
+    grid-template-rows: auto auto;
+}
