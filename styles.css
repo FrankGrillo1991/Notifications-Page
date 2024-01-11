@@ -124,3 +124,16 @@ body {
 .position-relative {
     position: relative;
 }
+
+.notification-markasread-read {
+    color: hsl(219, 14%, 63%);
+    background-color: black;
+}
+
+.notification-unread {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.hidden {
+    display: none;
+}
