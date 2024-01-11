@@ -15,6 +15,11 @@ body {
     background-color: hsl(211, 68%, 94%);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-notification {
     margin: 5rem auto;
     width: 80rem;
