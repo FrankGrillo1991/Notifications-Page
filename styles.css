@@ -121,3 +121,34 @@ section
     cursor: pointer;
 }
 
+.row
+.notification-container 
+.contact-name {
+    display: inline-block;
+    transition: color 300ms;
+    color: hsl(224, 21%, 14%);
+}
+
+section
+.row
+.notification-text {
+    color: hsl(219, 14%, 63%);
+    margin: 0 2px;
+}
+
+section
+.row
+.post,
+section
+.row
+.group-name {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    transition: color 300ms;
+}
+
+section 
+.row
+.group-name {
+    color: hsl(219, 85%, 26%);
+}
