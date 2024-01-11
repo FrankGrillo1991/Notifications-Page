@@ -161,7 +161,24 @@ section
 }
 
 section
-#to-read {
+.to-read {
     background-color: hsl(210, 60%, 98%);
     cursor: pointer;
+}
+
+#to-read {
+    background-color: hsl(210, 60%, 98%);
+}
+
+section
+.row
+.notification-container
+.text-conten::after {
+    content: "";
+    display: toggle;
+    width: 7px;
+    height: 7px;
+    border-radius: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    margin-left: 3px;
 }
