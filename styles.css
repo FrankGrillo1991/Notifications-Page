@@ -55,8 +55,8 @@ body {
 }
 
 .notification {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 10% 90%;
     padding: 1rem;
     border-radius: 12px;
     margin-bottom: 1rem;
