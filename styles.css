@@ -152,3 +152,16 @@ section
 .group-name {
     color: hsl(219, 85%, 26%);
 }
+
+section 
+.row
+.notification-time {
+    color: hsl(219, 14%, 63%);
+    margin: 2px 0;
+}
+
+section
+#to-read {
+    background-color: hsl(210, 60%, 98%);
+    cursor: pointer;
+}
