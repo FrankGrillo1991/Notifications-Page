@@ -73,3 +73,16 @@ body {
     right: 0;
     top: 2rem;
 }
+
+.notification-message-message {
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 2px hsl(219, 14%, 63%);
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.notification-message-message:hover {
+    border: solid 2px hsl(205, 33%, 90%);
+    background-color: hsl(205, 33%, 90%);
+}
