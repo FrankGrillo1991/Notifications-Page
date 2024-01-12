@@ -1,10 +1,9 @@
-let markAllButton = document.querySelector(".mark-all-button");
-let notificationDots = document.querySelectorAll(".notification-dot");
+const notificationsCounter = document.querySelector(".notifications-counter");
+const markAllButton = document.querySelector(".mark-all-button");
+const notificationDots = document.querySelectorAll(".notification-dot");
 let notifications = document.querySelectorAll("main ul li");
 
-let notificationsCounterNumber = [...notifications].filter(notification => notification.classList == "new-notification").length;
-notificationsCounter.innerHTML = notificationsCounterNumber;
-
+notificationsCounterNumber = 0;
 
 for (let index = 0; index < notifications.length; index++) {}
     if (notifications[index].classList == "new-notification") {
