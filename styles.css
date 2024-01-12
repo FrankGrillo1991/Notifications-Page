@@ -22,5 +22,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header div h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
    
   
