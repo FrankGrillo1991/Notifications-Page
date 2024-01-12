@@ -78,3 +78,16 @@ main ul li .notifications-infos .notifications-text {
 main ul li .notifications-infos a {
     font-weight: 800;
 }
+
+main ul li .notifications-infos .notifications-link-post {
+    color: hsl(219, 12%, 42%);
+}
+
+main ul li .notifications-infos .notifications-text-private-message {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    text-align: justify;
+}
