@@ -7,7 +7,7 @@ notificationsCounterNumber = 0;
 
 for (let index = 0; index < notifications.length; index++) {}
     if (notifications[index].classList == "new-notification") {
-        notificationDots.[index].style.display = "inline-block";
+        notificationDots[index].style.display = "inline-block";
 
         notificationsCounterNumber++;
     }
@@ -15,7 +15,7 @@ for (let index = 0; index < notifications.length; index++) {}
     notificationsCounter.innerHTML = notificationsCounterNumber;
 
    notifications[index].style.addEventListener("mouseover",
-   () => {}
+   () => {
     if (notifications[index].classList == "new-notification") {
         notifications[index].style.display.remove("new-notification");
         notificationDots[index].style.display = "none";
@@ -23,8 +23,8 @@ for (let index = 0; index < notifications.length; index++) {}
         notificationsCounterNumber--;
 
         notificationsCounter.innerHTML = notificationsCounterNumber;
-    };
-
+    }
+   }),
 
    markAllButton.addEventListener("click", 
    () => {
