@@ -104,3 +104,44 @@ header .mark-all-button:hover, main ul li .notifications-text-private-message:ho
     transition: 0.3s ease-in-out;
     background-color: hsl(211, 68%, 94%);
 }
+
+@media screen and (max-width: 1150px) {
+    main {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    main {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    main {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    main {
+        width: 100vw;
+    }
+}
+
+.new-notification {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.notification-dot {
+    display: none;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 0.2rem;
+    background-color: #ff4500;
+    border-radius: 50%;
+}
