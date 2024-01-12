@@ -5,10 +5,10 @@ let notifications = document.querySelectorAll("main ul li");
 
 notificationsCounterNumber = 0;
 
-for (let index = 0; index < notifications.length; index++) {}
+for (let index = 0; index < notifications.length; index++) {
     if (notifications[index].classList == "new-notification") {
         notificationDots[index].style.display = "inline-block";
-
+    }
         notificationsCounterNumber++;
     }
 
