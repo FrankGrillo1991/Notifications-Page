@@ -4,6 +4,7 @@ const notificationDots = document.querySelectorAll(".notification-dot");
 let notifications = document.querySelectorAll("main ul li");
 
 let notificationsCounterNumber = [...notifications].filter(notification => notification.classList == "new-notification").length;
+notificationsCounter.innerHTML = notificationsCounterNumber;
 
 notificationsCounterNumber = 0;
 
