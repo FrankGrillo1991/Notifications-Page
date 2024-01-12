@@ -18,14 +18,13 @@ for (let index = 0; index < notifications.length; index++) {}
    () => {}
     if (notifications[index].classList == "new-notification") {
         notifications[index]style.display.remove("new-notification"));
-
         notificationDots[index].style.display = "none";
 
         notificationsCounterNumber--;
 
         notificationsCounter.innerHTML = notificationsCounterNumber;
     }
-   }
+}
 
    markAllButton.addEventListener("click", 
    () => {
