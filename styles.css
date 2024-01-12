@@ -59,4 +59,13 @@ main ul li {
     color: hsl(219, 14%, 63%);
 }
    
-  
+main ul li img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+main ul li .notifications-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
