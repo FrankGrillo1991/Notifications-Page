@@ -91,3 +91,10 @@ main ul li .notifications-infos .notifications-text-private-message {
     border-radius: 5px;
     text-align: justify;
 }
+
+main ul li .notification-image {
+    position: absolute;
+    right: 0;
+    padding: 2px;
+    border-radius: 5px;
+}
