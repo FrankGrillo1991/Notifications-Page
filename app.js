@@ -14,25 +14,26 @@ for (let index = 0; index < notifications.length; index++) {
 
     notificationsCounter.innerHTML = notificationsCounterNumber;
 
-    notifications[index].addEventListener("mouseover", () => {
-        if (notifications[index].classList == "new-notification") {
-            notifications[index].classList.remove("new-notification");
+   notifications[index].style.addEventListener("mouseover",
+   () => {
+    if (notifications[index].classList == "new-notification") {
+        notifications[index]style.display.remove("new-notification");
 
-            notificationDots[index].style.display = "none";
+        notificationDots[index].style.display = "none";
 
-            notificationsCounterNumber--;
+        notificationsCounterNumber--;
 
-            notificationsCounter.innerHTML = notificationsCounterNumber;
-        }
+        notificationsCounter.innerHTML = notificationsCounterNumber;
     }
-}
+   }
 
-markAllButton.addEventListener("click", () => {
+   markAllButton.addEventListener("click", 
+   () => {
     notificationsCounter.innerHTML = 0;
 
-    for (let index = 0; < notifications.length; index++) {
+    for (let index = 0; index < notifications.length; index++) {
         notifications[index].classList.remove("new-notification");
 
         notificationDots[index].style.display = "none";
     }
-}
+   }
