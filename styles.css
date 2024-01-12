@@ -98,3 +98,9 @@ main ul li .notification-image {
     padding: 2px;
     border-radius: 5px;
 }
+
+header .mark-all-button:hover, main ul li .notifications-text-private-message:hover, main ul li .notification-image:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: hsl(211, 68%, 94%);
+}
