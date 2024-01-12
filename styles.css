@@ -1,3 +1,26 @@
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
+body {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 50vw;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
    
   
