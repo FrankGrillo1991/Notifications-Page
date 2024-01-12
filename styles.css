@@ -37,11 +37,26 @@ header div h1 {
 header div .notifications-counter {
     width: 2rem;
     height: 1.5rem;
-    background-color: blue;
+    background-color: hsl(219, 85%, 26%);
     border-radius: 5px;
     color: #ffffff;
     display: flex;
     justify-content: center;
+}
+
+header div .mark-all-button {
+    color: hsl(219, 14%, 63%);
+}
+
+main ul li {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    color: hsl(219, 14%, 63%);
 }
    
   
