@@ -1,4 +1,4 @@
-const notificationsCounter = document.querySelector(".notifications-counter");
+notificationsCounter = document.querySelector(".notifications-counter");
 const markAllButton = document.querySelector(".mark-all-button");
 const notificationDots = document.querySelectorAll(".notification-dot");
 let notifications = document.querySelectorAll("main ul li");
