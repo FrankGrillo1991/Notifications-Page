@@ -69,3 +69,12 @@ main ul li .notifications-infos {
     flex-direction: column;
     gap: 0.3rem;
 }
+
+main ul li .notifications-infos .notifications-text {
+    position: relative;
+    width: fit-content;
+}
+
+main ul li .notifications-infos a {
+    font-weight: 800;
+}
